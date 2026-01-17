@@ -1,12 +1,14 @@
 ***📊 Activity & Spend Behavior Intelligence**
 
 📌 Project Overview:
+
 This project analyzes daily human behavior, time usage, stress patterns, and spending decisions to uncover how activities and mental states influence productivity, value creation, and financial leakage.
 Using SQL for analysis and Power BI for visualization, the project transforms raw personal activity and spending data into actionable behavioral insights that support better decision-making for the future.
 ________________________________________
 **🎯 Business Problem**
 
 Modern individuals often:
+
 •	Spend time without realizing its long-term value
 •	Make unplanned purchases during high-stress periods
 •	Miss planned goals due to fatigue, distraction, or stress
@@ -56,7 +58,9 @@ sql/
 ├── 03_stress_analysis.sql
 ├── 04_spend_behavior.sql
 ├── 05_final_metrics.sql
+
 🔹 Key SQL Tasks
+
 •	Cleaned invalid durations and missing values
 •	Converted categorical stress levels into numeric scores
 •	Aggregated daily stress levels
@@ -67,6 +71,7 @@ ________________________________________
 **📈 Power BI Analysis & Visualization**
 
 🔹 Data Modeling
+
 •	Created date-based relationships between activity and spending tables
 •	Built calculated tables for:
 o	Daily stress summary
@@ -80,6 +85,7 @@ ________________________________________
 **📊 Dashboard Pages & Insights**
 
 1️⃣ Summary Dashboard
+
 •	High Value Time %
 •	High Stress Days
 •	Unplanned Spend %
@@ -91,6 +97,7 @@ ________________________________________
 
 •	Value-level differentiation by hours
 •	Activities consuming high time but low value
+
 Insight:
 Several daily habits consume large amounts of time but produce minimal long-term value.
 ________________________________________
@@ -99,6 +106,7 @@ ________________________________________
 •	Monthly missed plans
 •	Reasons for missed intentions
 •	Stress-driven activity breakdown
+
 Insight:
 Distraction and fatigue are the leading causes of missed goals, not lack of time.
 ________________________________________
@@ -107,6 +115,7 @@ ________________________________________
 •	Planned vs unplanned spend
 •	Categories causing highest spend leakage
 •	Spend distribution by stress level
+
 Insight:
 A significant portion of spending occurs during medium to high stress periods, indicating emotional-driven financial decisions.
 ________________________________________
@@ -115,6 +124,7 @@ ________________________________________
 •	Activities to increase (high energy + value)
 •	Activities to reduce (high stress + low value)
 •	Damage Score ranking
+
 Insight:
 Gradual reduction of specific habits can significantly improve both productivity and financial outcomes.
 ________________________________________
