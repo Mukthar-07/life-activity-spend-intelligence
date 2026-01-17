@@ -1,9 +1,11 @@
 ***📊 Activity & Spend Behavior Intelligence**
-📌 Project Overview
+
+📌 Project Overview:
 This project analyzes daily human behavior, time usage, stress patterns, and spending decisions to uncover how activities and mental states influence productivity, value creation, and financial leakage.
 Using SQL for analysis and Power BI for visualization, the project transforms raw personal activity and spending data into actionable behavioral insights that support better decision-making for the future.
 ________________________________________
 **🎯 Business Problem**
+
 Modern individuals often:
 •	Spend time without realizing its long-term value
 •	Make unplanned purchases during high-stress periods
@@ -16,6 +18,7 @@ This project answers:
 •	What habits should I stop or continue next year?
 ________________________________________
 **🗂️ Data Description**
+
 1️⃣ Activity Data
 Tracks daily activities and behavioral signals.
 Key Columns
@@ -28,6 +31,7 @@ Key Columns
 •	hours
 ________________________________________
 **2️⃣ Spending Logs**
+
 Tracks daily financial transactions.
 Key Columns
 •	date
@@ -37,12 +41,14 @@ Key Columns
 •	linked_reason (stress, boredom, health, etc.)
 ________________________________________
 **🛠️ Tools & Technologies**
+
 •	SQL – Data cleaning, transformation, analysis
 •	Power BI – Data modeling, DAX, dashboards
 •	Excel / CSV – Raw data source
 •	GitHub – Version control and documentation
 ________________________________________
 **🧮 SQL Analysis Workflow**
+
 All SQL files are organized inside the /sql folder.
 sql/
 ├── 01_data_cleaning.sql
@@ -59,6 +65,7 @@ sql/
 •	Generated KPIs for Power BI consumption
 ________________________________________
 **📈 Power BI Analysis & Visualization**
+
 🔹 Data Modeling
 •	Created date-based relationships between activity and spending tables
 •	Built calculated tables for:
@@ -71,6 +78,7 @@ o	Stress-based aggregations
 o	Damage Score (stress × time × activity impact)
 ________________________________________
 **📊 Dashboard Pages & Insights**
+
 1️⃣ Summary Dashboard
 •	High Value Time %
 •	High Stress Days
@@ -80,12 +88,14 @@ Insight:
 Less than half of total time contributes to high-value outcomes, while stress peaks correlate with unplanned spending.
 ________________________________________
 **2️⃣ Time vs Value Analysis**
+
 •	Value-level differentiation by hours
 •	Activities consuming high time but low value
 Insight:
 Several daily habits consume large amounts of time but produce minimal long-term value.
 ________________________________________
 **3️⃣ Stress and Missed Plans**
+
 •	Monthly missed plans
 •	Reasons for missed intentions
 •	Stress-driven activity breakdown
@@ -93,6 +103,7 @@ Insight:
 Distraction and fatigue are the leading causes of missed goals, not lack of time.
 ________________________________________
 **4️⃣ Spend Leakage**
+
 •	Planned vs unplanned spend
 •	Categories causing highest spend leakage
 •	Spend distribution by stress level
@@ -100,6 +111,7 @@ Insight:
 A significant portion of spending occurs during medium to high stress periods, indicating emotional-driven financial decisions.
 ________________________________________
 **5️⃣ Do’s and Don’ts for Next Year**
+
 •	Activities to increase (high energy + value)
 •	Activities to reduce (high stress + low value)
 •	Damage Score ranking
@@ -107,6 +119,7 @@ Insight:
 Gradual reduction of specific habits can significantly improve both productivity and financial outcomes.
 ________________________________________
 **📌 Key Outcomes**
+
 •	Identified time leakage activities
 •	Quantified stress-driven spending
 •	Built a behavioral decision framework
@@ -114,6 +127,7 @@ ________________________________________
 •	Delivered industry-style dashboards with storytelling
 ________________________________________
 **🚀 What This Project Demonstrates**
+
 •	Strong SQL fundamentals
 •	Practical Power BI modeling & DAX
 •	Analytical thinking beyond visuals
